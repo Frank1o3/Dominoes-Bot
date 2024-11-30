@@ -135,7 +135,7 @@ def detect_dominoes(frame):
                         edges,
                         cv2.HOUGH_GRADIENT,
                         dp=5.2,
-                        minDist=12,
+                        minDist=11,
                         param1=80,
                         param2=30,
                         minRadius=1,
